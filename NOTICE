@@ -1,0 +1,9 @@
+Hume Band Widget
+Copyright (c) 2026 Tomas Roldan
+
+This product includes software adapted from Codenotch
+(https://github.com/vinzdg/codenotch), Copyright (c) 2026 Vinz, licensed
+under the MIT License. The adapted portions are the colour ramp, the
+proportional layout system, the motion curves and the NSPanel
+configuration. The full Codenotch licence is reproduced in
+licenses/codenotch-LICENSE.txt.

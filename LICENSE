@@ -19,10 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
----
-
-This project adapts portions of Codenotch (https://github.com/vinzdg/codenotch),
-which is MIT licensed. Its notice is reproduced in licenses/codenotch-LICENSE.txt
-and applies to the adapted design-system and panel code. See "Credits" in
-README.md.
