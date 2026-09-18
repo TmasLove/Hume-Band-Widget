@@ -1,0 +1,24 @@
+# Your signing identity. Copy Config/Signing.xcconfig.example to
+# Config/Signing.xcconfig and put your own Team ID there.
+Config/Signing.xcconfig
+
+# Xcode
+build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Signing artefacts that must never be committed
+*.mobileprovision
+*.provisionprofile
+*.p12
+*.cer
+*.certSigningRequest
+
+# macOS
+.DS_Store

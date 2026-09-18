@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>AppGroupIdentifier</key>
+    <string>$(HUME_DEVELOPMENT_TEAM).group.com.tomasroldan.humewidgets</string>
+    <key>NSBluetoothAlwaysUsageDescription</key>
+    <string>Looks for your Hume Band 2.0 so the app can show its real readings instead of simulated ones.</string>
+    <key>CFBundleURLTypes</key>
+    <array>
+        <dict>
+            <key>CFBundleURLName</key>
+            <string>com.tomasroldan.humewidgets.deeplink</string>
+            <key>CFBundleURLSchemes</key>
+            <array><string>humeband</string></array>
+        </dict>
+    </array>
+</dict>
+</plist>

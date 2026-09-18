@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>NSHealthShareUsageDescription</key>
+    <string>Reads the heart rate, HRV, wrist temperature, steps and sleep your Hume Band writes to Apple Health, so it can show them on your Mac. Nothing is sent anywhere except the Mac you pair with.</string>
+    <key>NSLocalNetworkUsageDescription</key>
+    <string>Finds your Mac on this Wi-Fi network so your readings can be sent to it directly, without going through the internet.</string>
+    <key>NSBonjourServices</key>
+    <array>
+        <string>_humeband._tcp</string>
+    </array>
+    <key>UILaunchScreen</key>
+    <dict/>
+</dict>
+</plist>

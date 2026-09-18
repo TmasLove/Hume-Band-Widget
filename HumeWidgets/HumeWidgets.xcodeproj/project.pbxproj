@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+		CE57BC04D8F81053369729B4 /* AnimatedBadges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AnimatedBadges.swift"; sourceTree = "<group>"; };
+		0F63CF9BBD4316AB36857EA1 /* BandClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BandClient.swift"; sourceTree = "<group>"; };
+		190DFDAF6799700C22A3A8A0 /* BandScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BandScanner.swift"; sourceTree = "<group>"; };
+		72E1CD1254C7F0CE429EDB68 /* GlassSurface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GlassSurface.swift"; sourceTree = "<group>"; };
+		10E526C882D4B9C780802FDC /* HumeBandService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HumeBandService.swift"; sourceTree = "<group>"; };
+		FE6D7C80A41A5E79960C3C04 /* HumeConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HumeConfig.swift"; sourceTree = "<group>"; };
+		041817D1C7C4BAF54167C7B4 /* HumeIntents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HumeIntents.swift"; sourceTree = "<group>"; };
+		A365548CA8861CD06FFD760A /* HumeMetrics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HumeMetrics.swift"; sourceTree = "<group>"; };
+		D49203623E8CA7C0193427B2 /* MetricZone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MetricZone.swift"; sourceTree = "<group>"; };
+		16E157532C0DBDEA5F0D556C /* MetricsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MetricsStore.swift"; sourceTree = "<group>"; };
+		158616DB53C030B4BB124228 /* NightBackdrop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NightBackdrop.swift"; sourceTree = "<group>"; };
+		B865B2874D14AFBE384C7AC2 /* Palette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Palette.swift"; sourceTree = "<group>"; };
+		E4F9480FFB0D2B9AB43F5CE0 /* RefreshPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RefreshPolicy.swift"; sourceTree = "<group>"; };
+		3CACCFC1F5C72B76881BC85A /* RelayProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RelayProtocol.swift"; sourceTree = "<group>"; };
+		34639B3E8311583A6960B008 /* SettingsChrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SettingsChrome.swift"; sourceTree = "<group>"; };
+		4F50B2CCB999CB4DF31530C6 /* SleepAdvisor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SleepAdvisor.swift"; sourceTree = "<group>"; };
+		A7DB94E85BE004513A85A361 /* SleepViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SleepViews.swift"; sourceTree = "<group>"; };
+		DA0B67C2D4D88715F0AB5571 /* ZoneBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ZoneBar.swift"; sourceTree = "<group>"; };
+		85C8EA88129A0031CEF701B7 /* ZonePalette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ZonePalette.swift"; sourceTree = "<group>"; };
+		5E0443180E880E692669291F /* BandScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BandScanView.swift"; sourceTree = "<group>"; };
+		3DB928820BC19B47567868E8 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DashboardView.swift"; sourceTree = "<group>"; };
+		DBE62728AE187B51E26F606C /* HumePanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HumePanel.swift"; sourceTree = "<group>"; };
+		2A1427F04F834D1E0CDC2269 /* HumeWidgetsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HumeWidgetsApp.swift"; sourceTree = "<group>"; };
+		A4BD92B36D8713EB6B24DEC2 /* MetricsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MetricsViewModel.swift"; sourceTree = "<group>"; };
+		897084BA00042B5A2FE78714 /* PanelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PanelController.swift"; sourceTree = "<group>"; };
+		8911375984CAB3DEE2D22000 /* PanelRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PanelRootView.swift"; sourceTree = "<group>"; };
+		D4FD0C4B71131FCC1C1F0D51 /* PanelSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PanelSettingsView.swift"; sourceTree = "<group>"; };
+		C23B11F923D779EDD8166464 /* PhoneRelayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PhoneRelayView.swift"; sourceTree = "<group>"; };
+		5DD13F8D626359541BDD5C54 /* RelayServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RelayServer.swift"; sourceTree = "<group>"; };
+		B7B2FFAB2A71930C1DE3E7E8 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SettingsView.swift"; sourceTree = "<group>"; };
+		5600FA0F748B9BFC4DFC2337 /* HumeBandWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HumeBandWidget.swift"; sourceTree = "<group>"; };
+		55AB3E940194E50AADE390D1 /* HumeTimelineProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HumeTimelineProvider.swift"; sourceTree = "<group>"; };
+		6B644FB5CB4F05986E052FE8 /* HumeWidgetViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HumeWidgetViews.swift"; sourceTree = "<group>"; };
+		8765738C8BAE1AE8CF7ED74E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Assets.xcassets"; sourceTree = "<group>"; };
+		6E1AB820199E2B7C0960EB37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info.plist"; sourceTree = "<group>"; };
+		8D1741D109DBB14FED7FF84F /* HumeApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "HumeApp.entitlements"; sourceTree = "<group>"; };
+		431B358F8AAB1BC8FBEB4B48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info.plist"; sourceTree = "<group>"; };
+		A6CFEAEF847266CC79943B56 /* HumeWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "HumeWidget.entitlements"; sourceTree = "<group>"; };
+		DC3F580BAE929CE526F169DF /* Signing.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "Signing.xcconfig"; path = "../Config/Signing.xcconfig"; sourceTree = "<group>"; };
+		9F358B13F44DE59E1E33F607 /* HumeWidgets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HumeWidgets.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A7A5E6AB8941210F5FB599A /* HumeWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "HumeWidgetExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B7A72D56740C08D7261C355 /* AnimatedBadges.swift in HumeWidgets */ = {isa = PBXBuildFile; fileRef = CE57BC04D8F81053369729B4 /* AnimatedBadges.swift */; };
+		57F036A750D70C9C013F5CE3 /* BandClient.swift in HumeWidgets */ = {isa = PBXBuildFile; fileRef = 0F63CF9BBD4316AB36857EA1 /* BandClient.swift */; };
+		2D1BCEBBE1483ED8B4FDA6F4 /* BandScanner.swift in HumeWidgets */ = {isa = PBXBuildFile; fileRef = 190DFDAF6799700C22A3A8A0 /* BandScanner.swift */; };
+		7550E25CA2CC95B920EF9828 /* GlassSurface.swift in HumeWidgets */ = {isa = PBXBuildFile; fileRef = 72E1CD1254C7F0CE429EDB68 /* GlassSurface.swift */; };
+		00A0494F2FEBE87221313471 /* HumeBandService.swift in HumeWidgets */ = {isa = PBXBuildFile; fileRef = 10E526C882D4B9C780802FDC /* HumeBandService.swift */; };
+		0819E19A01888F3B26B1681C /* HumeConfig.swift in HumeWidgets */ = {isa = PBXBuildFile; fileRef = FE6D7C80A41A5E79960C3C04 /* HumeConfig.swift */; };
+		FA3E8194896F34C7169CD827 /* HumeIntents.swift in HumeWidgets */ = {isa = PBXBuildFile; fileRef = 041817D1C7C4BAF54167C7B4 /* HumeIntents.swift */; };
+		826530C5EF20A5579FF33DEC /* HumeMetrics.swift in HumeWidgets */ = {isa = PBXBuildFile; fileRef = A365548CA8861CD06FFD760A /* HumeMetrics.swift */; };
+		787DAAE91802B0C5FA26CD31 /* MetricZone.swift in HumeWidgets */ = {isa = PBXBuildFile; fileRef = D49203623E8CA7C0193427B2 /* MetricZone.swift */; };
+		02545479DC07AE088A15E297 /* MetricsStore.swift in HumeWidgets */ = {isa = PBXBuildFile; fileRef = 16E157532C0DBDEA5F0D556C /* MetricsStore.swift */; };
+		CEB9CA4750BE83332389385C /* NightBackdrop.swift in HumeWidgets */ = {isa = PBXBuildFile; fileRef = 158616DB53C030B4BB124228 /* NightBackdrop.swift */; };
+		8C6DB8CFC332B397ABF32CC3 /* Palette.swift in HumeWidgets */ = {isa = PBXBuildFile; fileRef = B865B2874D14AFBE384C7AC2 /* Palette.swift */; };
+		257353A04B36C5A1D0B13F7C /* RefreshPolicy.swift in HumeWidgets */ = {isa = PBXBuildFile; fileRef = E4F9480FFB0D2B9AB43F5CE0 /* RefreshPolicy.swift */; };
+		99453D70F493572EDBC041C4 /* RelayProtocol.swift in HumeWidgets */ = {isa = PBXBuildFile; fileRef = 3CACCFC1F5C72B76881BC85A /* RelayProtocol.swift */; };
+		3B765E38C009616F23794862 /* SettingsChrome.swift in HumeWidgets */ = {isa = PBXBuildFile; fileRef = 34639B3E8311583A6960B008 /* SettingsChrome.swift */; };
+		34DF718C35542C570F4218F4 /* SleepAdvisor.swift in HumeWidgets */ = {isa = PBXBuildFile; fileRef = 4F50B2CCB999CB4DF31530C6 /* SleepAdvisor.swift */; };
+		A506E7B7F80ED1A1EBDBA551 /* SleepViews.swift in HumeWidgets */ = {isa = PBXBuildFile; fileRef = A7DB94E85BE004513A85A361 /* SleepViews.swift */; };
+		079667310B8FB3A5039A6430 /* ZoneBar.swift in HumeWidgets */ = {isa = PBXBuildFile; fileRef = DA0B67C2D4D88715F0AB5571 /* ZoneBar.swift */; };
+		3B73C9E1A567B0E54C112915 /* ZonePalette.swift in HumeWidgets */ = {isa = PBXBuildFile; fileRef = 85C8EA88129A0031CEF701B7 /* ZonePalette.swift */; };
+		DD1772D8E9759F8F56CCF122 /* BandScanView.swift in HumeWidgets */ = {isa = PBXBuildFile; fileRef = 5E0443180E880E692669291F /* BandScanView.swift */; };
+		CF8324C0F3EB212A280334B1 /* DashboardView.swift in HumeWidgets */ = {isa = PBXBuildFile; fileRef = 3DB928820BC19B47567868E8 /* DashboardView.swift */; };
+		779C2219C973E2F7FB874AAA /* HumePanel.swift in HumeWidgets */ = {isa = PBXBuildFile; fileRef = DBE62728AE187B51E26F606C /* HumePanel.swift */; };
+		0F71C5E9FF547838201C5A8B /* HumeWidgetsApp.swift in HumeWidgets */ = {isa = PBXBuildFile; fileRef = 2A1427F04F834D1E0CDC2269 /* HumeWidgetsApp.swift */; };
+		DA9BEF904894C34ACE718B71 /* MetricsViewModel.swift in HumeWidgets */ = {isa = PBXBuildFile; fileRef = A4BD92B36D8713EB6B24DEC2 /* MetricsViewModel.swift */; };
+		34E38C279C30EB5048037D7A /* PanelController.swift in HumeWidgets */ = {isa = PBXBuildFile; fileRef = 897084BA00042B5A2FE78714 /* PanelController.swift */; };
+		F866F25B73BF1B06529EFE22 /* PanelRootView.swift in HumeWidgets */ = {isa = PBXBuildFile; fileRef = 8911375984CAB3DEE2D22000 /* PanelRootView.swift */; };
+		B8E2256ADEFC93BA583BE358 /* PanelSettingsView.swift in HumeWidgets */ = {isa = PBXBuildFile; fileRef = D4FD0C4B71131FCC1C1F0D51 /* PanelSettingsView.swift */; };
+		A60047F9379859D40E0552BF /* PhoneRelayView.swift in HumeWidgets */ = {isa = PBXBuildFile; fileRef = C23B11F923D779EDD8166464 /* PhoneRelayView.swift */; };
+		2BD0F87DADCC4B7E35B07421 /* RelayServer.swift in HumeWidgets */ = {isa = PBXBuildFile; fileRef = 5DD13F8D626359541BDD5C54 /* RelayServer.swift */; };
+		D3BF9C02F5BA56F69D8013AE /* SettingsView.swift in HumeWidgets */ = {isa = PBXBuildFile; fileRef = B7B2FFAB2A71930C1DE3E7E8 /* SettingsView.swift */; };
+		1AFAC259E6059B568EC136DE /* AnimatedBadges.swift in HumeWidgetExtension */ = {isa = PBXBuildFile; fileRef = CE57BC04D8F81053369729B4 /* AnimatedBadges.swift */; };
+		118C9E7B88D2BD852D5B4335 /* BandClient.swift in HumeWidgetExtension */ = {isa = PBXBuildFile; fileRef = 0F63CF9BBD4316AB36857EA1 /* BandClient.swift */; };
+		EF0BD558D38F441CA4022FBE /* BandScanner.swift in HumeWidgetExtension */ = {isa = PBXBuildFile; fileRef = 190DFDAF6799700C22A3A8A0 /* BandScanner.swift */; };
+		90F598975FFAA873C14AF92D /* GlassSurface.swift in HumeWidgetExtension */ = {isa = PBXBuildFile; fileRef = 72E1CD1254C7F0CE429EDB68 /* GlassSurface.swift */; };
+		ADBD01EF72D30301EBF537ED /* HumeBandService.swift in HumeWidgetExtension */ = {isa = PBXBuildFile; fileRef = 10E526C882D4B9C780802FDC /* HumeBandService.swift */; };
+		9616F35CE6380ED4F9D72498 /* HumeConfig.swift in HumeWidgetExtension */ = {isa = PBXBuildFile; fileRef = FE6D7C80A41A5E79960C3C04 /* HumeConfig.swift */; };
+		B861808923EA85C167A0E038 /* HumeIntents.swift in HumeWidgetExtension */ = {isa = PBXBuildFile; fileRef = 041817D1C7C4BAF54167C7B4 /* HumeIntents.swift */; };
+		32408FA40AFE13180E3B9830 /* HumeMetrics.swift in HumeWidgetExtension */ = {isa = PBXBuildFile; fileRef = A365548CA8861CD06FFD760A /* HumeMetrics.swift */; };
+		F6E31C1D9AC7447826015104 /* MetricZone.swift in HumeWidgetExtension */ = {isa = PBXBuildFile; fileRef = D49203623E8CA7C0193427B2 /* MetricZone.swift */; };
+		42160A9A82C8B69D5F2CA10D /* MetricsStore.swift in HumeWidgetExtension */ = {isa = PBXBuildFile; fileRef = 16E157532C0DBDEA5F0D556C /* MetricsStore.swift */; };
+		43E48DD872B903FC3F5979C8 /* NightBackdrop.swift in HumeWidgetExtension */ = {isa = PBXBuildFile; fileRef = 158616DB53C030B4BB124228 /* NightBackdrop.swift */; };
+		6646AFC7A94584EA4E00B4C0 /* Palette.swift in HumeWidgetExtension */ = {isa = PBXBuildFile; fileRef = B865B2874D14AFBE384C7AC2 /* Palette.swift */; };
+		8733733A55426C686F9F0B74 /* RefreshPolicy.swift in HumeWidgetExtension */ = {isa = PBXBuildFile; fileRef = E4F9480FFB0D2B9AB43F5CE0 /* RefreshPolicy.swift */; };
+		0C826A31B4BBCA262B974F5D /* RelayProtocol.swift in HumeWidgetExtension */ = {isa = PBXBuildFile; fileRef = 3CACCFC1F5C72B76881BC85A /* RelayProtocol.swift */; };
+		FD5B75AF02C8A28471DC36C7 /* SettingsChrome.swift in HumeWidgetExtension */ = {isa = PBXBuildFile; fileRef = 34639B3E8311583A6960B008 /* SettingsChrome.swift */; };
+		C41F4B2EBE8320A615C04289 /* SleepAdvisor.swift in HumeWidgetExtension */ = {isa = PBXBuildFile; fileRef = 4F50B2CCB999CB4DF31530C6 /* SleepAdvisor.swift */; };
+		01B6EC112CC983BB341E5C6F /* SleepViews.swift in HumeWidgetExtension */ = {isa = PBXBuildFile; fileRef = A7DB94E85BE004513A85A361 /* SleepViews.swift */; };
+		FA348E328C2C2B91E7271872 /* ZoneBar.swift in HumeWidgetExtension */ = {isa = PBXBuildFile; fileRef = DA0B67C2D4D88715F0AB5571 /* ZoneBar.swift */; };
+		79292403098EF9E85CF7D319 /* ZonePalette.swift in HumeWidgetExtension */ = {isa = PBXBuildFile; fileRef = 85C8EA88129A0031CEF701B7 /* ZonePalette.swift */; };
+		5694F8A0C068A709F3074B97 /* HumeBandWidget.swift in HumeWidgetExtension */ = {isa = PBXBuildFile; fileRef = 5600FA0F748B9BFC4DFC2337 /* HumeBandWidget.swift */; };
+		7CCC506CCCFE841008321E46 /* HumeTimelineProvider.swift in HumeWidgetExtension */ = {isa = PBXBuildFile; fileRef = 55AB3E940194E50AADE390D1 /* HumeTimelineProvider.swift */; };
+		ED7F152F06A4840CEB77AAEF /* HumeWidgetViews.swift in HumeWidgetExtension */ = {isa = PBXBuildFile; fileRef = 6B644FB5CB4F05986E052FE8 /* HumeWidgetViews.swift */; };
+		CDAA82FE8F35883CDF0ABC33 /* Assets.xcassets in HumeWidgets */ = {isa = PBXBuildFile; fileRef = 8765738C8BAE1AE8CF7ED74E /* Assets.xcassets */; };
+		03C5CD9C9F8DF1B17B77542F /* Assets.xcassets in HumeWidgetExtension */ = {isa = PBXBuildFile; fileRef = 8765738C8BAE1AE8CF7ED74E /* Assets.xcassets */; };
+		EB86007EB858B22E11981432 /* HumeWidgetExtension.appex in Embed */ = {isa = PBXBuildFile; fileRef = 2A7A5E6AB8941210F5FB599A; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8EA65C603DA123B5B8F1B5EA /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				CE57BC04D8F81053369729B4,
+				0F63CF9BBD4316AB36857EA1,
+				190DFDAF6799700C22A3A8A0,
+				72E1CD1254C7F0CE429EDB68,
+				10E526C882D4B9C780802FDC,
+				FE6D7C80A41A5E79960C3C04,
+				041817D1C7C4BAF54167C7B4,
+				A365548CA8861CD06FFD760A,
+				D49203623E8CA7C0193427B2,
+				16E157532C0DBDEA5F0D556C,
+				158616DB53C030B4BB124228,
+				B865B2874D14AFBE384C7AC2,
+				E4F9480FFB0D2B9AB43F5CE0,
+				3CACCFC1F5C72B76881BC85A,
+				34639B3E8311583A6960B008,
+				4F50B2CCB999CB4DF31530C6,
+				A7DB94E85BE004513A85A361,
+				DA0B67C2D4D88715F0AB5571,
+				85C8EA88129A0031CEF701B7,
+				8765738C8BAE1AE8CF7ED74E,
+			);
+			path = "Shared";
+			name = "Shared";
+			sourceTree = "<group>";
+		};
+		5AFD122B32A4D6813B62B1CE /* HumeApp */ = {
+			isa = PBXGroup;
+			children = (
+				5E0443180E880E692669291F,
+				3DB928820BC19B47567868E8,
+				DBE62728AE187B51E26F606C,
+				2A1427F04F834D1E0CDC2269,
+				A4BD92B36D8713EB6B24DEC2,
+				897084BA00042B5A2FE78714,
+				8911375984CAB3DEE2D22000,
+				D4FD0C4B71131FCC1C1F0D51,
+				C23B11F923D779EDD8166464,
+				5DD13F8D626359541BDD5C54,
+				B7B2FFAB2A71930C1DE3E7E8,
+				6E1AB820199E2B7C0960EB37,
+				8D1741D109DBB14FED7FF84F,
+			);
+			path = "HumeApp";
+			name = "HumeApp";
+			sourceTree = "<group>";
+		};
+		99C12CAD1B16DE9777C4C378 /* HumeWidget */ = {
+			isa = PBXGroup;
+			children = (
+				5600FA0F748B9BFC4DFC2337,
+				55AB3E940194E50AADE390D1,
+				6B644FB5CB4F05986E052FE8,
+				431B358F8AAB1BC8FBEB4B48,
+				A6CFEAEF847266CC79943B56,
+			);
+			path = "HumeWidget";
+			name = "HumeWidget";
+			sourceTree = "<group>";
+		};
+		FE09FC8ADF379301B19F0D84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F358B13F44DE59E1E33F607,
+				2A7A5E6AB8941210F5FB599A,
+			);
+			name = "Products";
+			sourceTree = "<group>";
+		};
+		335DD1F3E92703F5A96646FE /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				DC3F580BAE929CE526F169DF,
+				8EA65C603DA123B5B8F1B5EA,
+				5AFD122B32A4D6813B62B1CE,
+				99C12CAD1B16DE9777C4C378,
+				FE09FC8ADF379301B19F0D84,
+			);
+			name = "Root";
+			sourceTree = "<group>";
+		};
+		66D5E87D564BAFDBDEEE0CB4 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B7A72D56740C08D7261C355,
+				57F036A750D70C9C013F5CE3,
+				2D1BCEBBE1483ED8B4FDA6F4,
+				7550E25CA2CC95B920EF9828,
+				00A0494F2FEBE87221313471,
+				0819E19A01888F3B26B1681C,
+				FA3E8194896F34C7169CD827,
+				826530C5EF20A5579FF33DEC,
+				787DAAE91802B0C5FA26CD31,
+				02545479DC07AE088A15E297,
+				CEB9CA4750BE83332389385C,
+				8C6DB8CFC332B397ABF32CC3,
+				257353A04B36C5A1D0B13F7C,
+				99453D70F493572EDBC041C4,
+				3B765E38C009616F23794862,
+				34DF718C35542C570F4218F4,
+				A506E7B7F80ED1A1EBDBA551,
+				079667310B8FB3A5039A6430,
+				3B73C9E1A567B0E54C112915,
+				DD1772D8E9759F8F56CCF122,
+				CF8324C0F3EB212A280334B1,
+				779C2219C973E2F7FB874AAA,
+				0F71C5E9FF547838201C5A8B,
+				DA9BEF904894C34ACE718B71,
+				34E38C279C30EB5048037D7A,
+				F866F25B73BF1B06529EFE22,
+				B8E2256ADEFC93BA583BE358,
+				A60047F9379859D40E0552BF,
+				2BD0F87DADCC4B7E35B07421,
+				D3BF9C02F5BA56F69D8013AE,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AED8B1BB77283812ABBC549A = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDAA82FE8F35883CDF0ABC33,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4139CC83C676758BD8DF65B = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F659FDD2F669295F5008B17 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AFAC259E6059B568EC136DE,
+				118C9E7B88D2BD852D5B4335,
+				EF0BD558D38F441CA4022FBE,
+				90F598975FFAA873C14AF92D,
+				ADBD01EF72D30301EBF537ED,
+				9616F35CE6380ED4F9D72498,
+				B861808923EA85C167A0E038,
+				32408FA40AFE13180E3B9830,
+				F6E31C1D9AC7447826015104,
+				42160A9A82C8B69D5F2CA10D,
+				43E48DD872B903FC3F5979C8,
+				6646AFC7A94584EA4E00B4C0,
+				8733733A55426C686F9F0B74,
+				0C826A31B4BBCA262B974F5D,
+				FD5B75AF02C8A28471DC36C7,
+				C41F4B2EBE8320A615C04289,
+				01B6EC112CC983BB341E5C6F,
+				FA348E328C2C2B91E7271872,
+				79292403098EF9E85CF7D319,
+				5694F8A0C068A709F3074B97,
+				7CCC506CCCFE841008321E46,
+				ED7F152F06A4840CEB77AAEF,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE6D939BE47C44682A3F2C18 = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03C5CD9C9F8DF1B17B77542F,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA02B4D4FD6C5073135DA0E8 = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0664A89C66441ECA85673872 = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB86007EB858B22E11981432,
+			);
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B230C9168844C5B971B187B6 = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98F54143AB4E86B28C3AFEE0;
+			proxyType = 1;
+			remoteGlobalIDString = 3B1689025F28FC4C8DE1FFA9;
+			remoteInfo = "HumeWidgetExtension";
+		};
+		E9FAD0C6CD43534327C0AF90 = {
+			isa = PBXTargetDependency;
+			target = 3B1689025F28FC4C8DE1FFA9;
+			targetProxy = B230C9168844C5B971B187B6;
+		};
+		E3EBCBBFB33611052F1F254E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC3F580BAE929CE526F169DF;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				MACOSX_DEPLOYMENT_TARGET = 27.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		45A51FDE45C8C9313F9CC216 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC3F580BAE929CE526F169DF;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				MACOSX_DEPLOYMENT_TARGET = 27.0;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D29D9F3A882C4202964FB56 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3EBCBBFB33611052F1F254E /* Debug */,
+				45A51FDE45C8C9313F9CC216 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		754064D2901B6752E802BA06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC3F580BAE929CE526F169DF;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "HumeApp/HumeApp.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "$(HUME_DEVELOPMENT_TEAM)";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "HumeApp/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tomasroldan.humewidgets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		831F0B0E7AD0243B76867D45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC3F580BAE929CE526F169DF;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "HumeApp/HumeApp.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "$(HUME_DEVELOPMENT_TEAM)";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "HumeApp/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tomasroldan.humewidgets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		23746EFE221170E24101FE05 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				754064D2901B6752E802BA06 /* Debug */,
+				831F0B0E7AD0243B76867D45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2101F54BEA7A94388ACBD4F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC3F580BAE929CE526F169DF;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "HumeWidget/HumeWidget.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "$(HUME_DEVELOPMENT_TEAM)";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "HumeWidget/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Hume Band";
+				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tomasroldan.humewidgets.widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FDA8D4FD9276B684E6E4C2E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC3F580BAE929CE526F169DF;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "HumeWidget/HumeWidget.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "$(HUME_DEVELOPMENT_TEAM)";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "HumeWidget/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Hume Band";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tomasroldan.humewidgets.widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0FE9D88A879543BBEB61FB72 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2101F54BEA7A94388ACBD4F4 /* Debug */,
+				FDA8D4FD9276B684E6E4C2E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28B8386B3695838564AC07AE /* HumeWidgets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23746EFE221170E24101FE05;
+			buildPhases = (
+				66D5E87D564BAFDBDEEE0CB4,
+				C4139CC83C676758BD8DF65B,
+				AED8B1BB77283812ABBC549A,
+				0664A89C66441ECA85673872,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9FAD0C6CD43534327C0AF90,
+			);
+			name = "HumeWidgets";
+			productName = "HumeWidgets";
+			productReference = 9F358B13F44DE59E1E33F607;
+			productType = "com.apple.product-type.application";
+		};
+		3B1689025F28FC4C8DE1FFA9 /* HumeWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FE9D88A879543BBEB61FB72;
+			buildPhases = (
+				5F659FDD2F669295F5008B17,
+				BA02B4D4FD6C5073135DA0E8,
+				EE6D939BE47C44682A3F2C18,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HumeWidgetExtension";
+			productName = "HumeWidgetExtension";
+			productReference = 2A7A5E6AB8941210F5FB599A;
+			productType = "com.apple.product-type.app-extension";
+		};
+		98F54143AB4E86B28C3AFEE0 = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2700;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					28B8386B3695838564AC07AE = { CreatedOnToolsVersion = 27.0; };
+					3B1689025F28FC4C8DE1FFA9 = { CreatedOnToolsVersion = 27.0; };
+				};
+			};
+			buildConfigurationList = 3D29D9F3A882C4202964FB56;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 335DD1F3E92703F5A96646FE;
+			productRefGroup = FE09FC8ADF379301B19F0D84;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28B8386B3695838564AC07AE,
+				3B1689025F28FC4C8DE1FFA9,
+			);
+		};
+	};
+	rootObject = 98F54143AB4E86B28C3AFEE0;
+}

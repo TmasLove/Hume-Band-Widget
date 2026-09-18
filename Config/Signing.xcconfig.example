@@ -1,0 +1,12 @@
+// Copy this file to `Signing.xcconfig` and put your own Apple Developer
+// Team ID in it. That file is gitignored, so your identifiers never end up
+// in the repository.
+//
+// Find your Team ID in Xcode › Settings › Accounts, or at
+// developer.apple.com/account under Membership.
+//
+// A Team ID is not a secret — it is visible in any signed app — but it is
+// yours, and hardcoding it would mean everyone who clones this has to edit
+// source before they can build.
+
+HUME_DEVELOPMENT_TEAM = ABCDE12345
